@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+img{
+    width: 30px;
+    border-radius: 50%;
+    margin-left:10px;
+
+}
+.ph{
+    width: 200px;
+    margin-top: 10px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    height: 400px;
+    background-color:#A987A8;
+}
+
+.suare
+{
+    width: 200px;
+    height: 90px;
+    background-color: rgb(187, 186, 194);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+    color: rgb(10, 10, 10);
+    gap: 0px 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#ContactMe .box .suare a{
+    display: flex;
+    text-decoration: none;
+    gap: 0px 4px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .card a span p{
+    font-size: 12px;
+}
+main{
+    margin: 10px auto;
+    width: 800px;
+    height: 1200px;
+    border: 5px solid rgba(117, 31, 31, 0.5);
+    border-radius: 30px;
+    background-color: #511f52;
+}
+.h{
+    display: flex;
+    gap: 0px 5px;
+}
+.box1,.box2,.box3{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#Interests,#ProgrammingSkills,#Eduacation,#ContactMe,#Experience{
+    padding: 5px 10px;
+}
+.hr{
+    border-bottom: 2px solid rgba(220, 220, 220, 229);
+    margin: 10px 0;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h2 ,.h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero p{
+    color: black;
+}
+.Followme{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
